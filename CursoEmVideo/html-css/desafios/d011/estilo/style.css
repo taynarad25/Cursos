@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+div{
+    position: relative;
+}
+
+div > .astronauta{
+    position: absolute;
+    width: 40%;
+    transform: translate(70%, 10%)
+}
+
+div > .espaco{
+    width: 100%;
+}
